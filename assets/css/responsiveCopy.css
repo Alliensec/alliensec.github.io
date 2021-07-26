@@ -1,0 +1,120 @@
+@media screen and (max-width: 480px), (max-width: 800px) {
+  section#parallax .content-parallax .planet-animation img {
+    width: 100%;
+  }
+
+  section#parallax .content-parallax .astronaut-animation img {
+    width: 20vw;
+    left: -150vw;
+    margin-top: 70vh;
+  }
+
+  @keyframes flying {
+    0% {
+      left: -150px;
+      bottom: -20px;
+    }
+
+    100% {
+      left: 150vw;
+      bottom: 200px;
+    }
+  }
+
+  section#parallax .content-parallax .heading-parallax h1 {
+    font-size: 7vw;
+  }
+
+  section#parallax .content-parallax .heading-parallax h5 {
+    font-size: 4vw;
+  }
+
+  section#parallax .content-parallax p {
+    top: 40vh;
+    font-size: 3vw;
+  }
+
+  section#about {
+    margin-top: 0px;
+  }
+
+  section#about .container {
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+  }
+
+  section#about .container .img-about img {
+    width: 100%;
+  }
+
+  section#about .container .content-about {
+    margin-left: 0px;
+  }
+  section#about .container .content-about .skills-about {
+    width: 90vw;
+    height: 75px;
+    margin-left: -4px;
+  }
+  section#about .container .content-about .skills-about img {
+    width: 60;
+  }
+
+  section#about .container .content-about h1 {
+    font-size: 18px;
+  }
+
+  section#about .container .content-about p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  section#workflow {
+    width: 90vw;
+    margin: auto;
+    margin-top: 150px;
+  }
+  section#workflow h1 {
+    font-size: 18px;
+  }
+  section#workflow p {
+    font-size: 10px;
+  }
+  section#workflow .content-workflow .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  section#workflow .content-workflow .card img {
+    width: 50px;
+  }
+
+  section#workflow .content-workflow {
+    flex-direction: column;
+  }
+
+  section#banner {
+    border: 1px solid;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+
+    background-image: url("../img/bg-landing.png");
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section#banner h5 {
+    font-size: 14px;
+  }
+
+  section#banner a {
+    font-size: 14px;
+  }
+}

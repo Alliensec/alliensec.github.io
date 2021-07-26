@@ -1,0 +1,195 @@
+@media screen and (max-width: 480px), (max-width: 800px) {
+  section#parallax .content-parallax .planet-animation img {
+    width: 100%;
+  }
+
+  section#parallax .content-parallax .astronaut-animation img {
+    width: 15%;
+    left: -150vw;
+    margin-top: 70vh;
+  }
+
+  @keyframes flying {
+    0% {
+      left: -150px;
+      bottom: -20px;
+    }
+
+    100% {
+      left: 150vw;
+      bottom: 200px;
+    }
+  }
+
+  section#parallax .content-parallax .heading-parallax h1 {
+    font-size: 7vw;
+  }
+
+  section#parallax .content-parallax .heading-parallax h5 {
+    font-size: 4vw;
+  }
+
+  section#parallax .content-parallax p {
+    top: 40vh;
+    font-size: 3vw;
+  }
+
+  section#about {
+    padding: 20px;
+    margin-top: 0;
+  }
+
+  section#about .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section#about .container .img-about img {
+    width: 100%;
+  }
+
+  section#about .container .content-about {
+    padding-left: 0px;
+  }
+
+  section#about .container .content-about .skills-about {
+    height: 75px;
+    width: 100%;
+    margin-left: -3px;
+  }
+  section#about .container .content-about .skills-about img {
+    width: 60;
+  }
+
+  section#about .container .content-about h1 {
+    font-size: 18px;
+  }
+
+  section#about .container .content-about p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  section#workflow {
+    margin-top: 150px;
+  }
+  section#workflow h1 {
+    font-size: 18px;
+  }
+  section#workflow p {
+    font-size: 10px;
+  }
+  section#workflow .content-workflow .card {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  section#workflow .content-workflow .card img {
+    width: 50px;
+  }
+
+  section#workflow .content-workflow {
+    flex-direction: column;
+  }
+
+  section#banner {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("../img/bg-landing.png");
+    min-height: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section#banner h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  section#banner a {
+    font-size: 10px;
+  }
+
+  section#projects .card-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section#projects .card-wrap .card {
+  }
+
+  section#projects .minitext h1 {
+    font-size: 18px;
+  }
+
+  section#projects .minitext p {
+    font-size: 10px;
+  }
+
+  section#projects .card-wrap .card a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(7, 17, 17, 0.2);
+    transition: 0.5s;
+  }
+
+  section#contact {
+    display: flex;
+    flex-direction: column;
+  }
+  section#contact h1 {
+    font-size: 18px;
+    font-family: "Encode Sans", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.3;
+  }
+
+  section#contact .col-left .planet-animation img {
+    position: absolute;
+    left: -200px;
+    width: 100%;
+    top: 70px;
+  }
+
+  section#contact .col-left,
+  section#contact .col-right {
+    padding: 30px;
+  }
+
+  section#contact .col-right h1 {
+    font-size: 18px;
+  }
+
+  section#contact .col-left .contact-item i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  section#contact .col-left .contact-item .contact-text h5 {
+    font-size: 12px;
+  }
+  section#contact .col-left .contact-item .contact-text p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  section#contact .col-right p {
+    font-size: 10px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
